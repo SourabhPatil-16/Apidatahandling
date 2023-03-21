@@ -46,13 +46,4 @@ function Fetchdata() {
 
 export default Fetchdata;
 
-{
-  /* <ul>
-        {data.map((item, index) => (
-          <li key={index}>
-            {item.name} - {item.degree}
-            <button onClick={() => handleDelete(index)}>Delete</button>
-          </li>
-        ))}
-      </ul> */
-}
+ 
