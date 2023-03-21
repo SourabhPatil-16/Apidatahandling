@@ -22,6 +22,7 @@ function Fetchdata() {
       <table border="2">
         <thead>
           <tr>
+            <th>SN</th>
             <th>Post</th>
             <th>Email</th>
             <th>Action</th>
@@ -31,6 +32,7 @@ function Fetchdata() {
           {data.map((user, index) => (
             // <tr key={user.id}>
             <tr key={index}>
+              <td>{user.id}</td>
               <td>{user.name}</td>
               <td>{user.email}</td>
               <td>
@@ -45,5 +47,3 @@ function Fetchdata() {
 }
 
 export default Fetchdata;
-
- 

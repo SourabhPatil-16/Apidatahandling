@@ -9,6 +9,8 @@ p {
 }
 table {
   position: absolute;
-  left: 33%;
+  font-size: large;
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
